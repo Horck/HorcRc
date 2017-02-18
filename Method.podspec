@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Method"
-  s.version      = "1.0"
+  s.version      = "0.1"
   s.summary      = "UIVIew ex"
 
   s.description  = <<-DESC
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Horck/HorcRc.git", :tag => "0.1" }
 
 
-  s.source_files  = "UIViewEx", "HorcRc/UIViewEx/**/*.{h,m}"
+  s.source_files  = "UIViewEx", "HorcRc/HorcRc/UIViewEx/*.{h,m}"
 
   s.frameworks = "UIKit"
 
