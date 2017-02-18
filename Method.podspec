@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name         = "Method"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "UIVIew ex"
 
   s.description  = <<-DESC
                     添加UIVIew扩展方法
                    DESC
 
-  s.homepage     = "http://EXAMPLE/Method"
+  s.homepage     = "https://github.com/Horck/HorcRc.git"
 
   s.license      = "MIT"
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Horck/HorcRc.git", :tag => "0.1" }
 
 
-  s.source_files  = "UIViewEx", "UIViewEx/**/*.{h,m}"
+  s.source_files  = "UIViewEx", "HorcRc/UIViewEx/**/*.{h,m}"
 
   s.frameworks = "UIKit"
 
