@@ -14,6 +14,7 @@
 		52C6A3FF1E5816A40084E512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C6A3FE1E5816A40084E512 /* Assets.xcassets */; };
 		52C6A4021E5816A40084E512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C6A4001E5816A40084E512 /* LaunchScreen.storyboard */; };
 		52C6A40D1E5816A40084E512 /* HorcRcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6A40C1E5816A40084E512 /* HorcRcUITests.m */; };
+		52C6A41A1E5818E60084E512 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C6A4191E5818E60084E512 /* UIView+Ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		52C6A4081E5816A40084E512 /* HorcRcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorcRcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C6A40C1E5816A40084E512 /* HorcRcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorcRcUITests.m; sourceTree = "<group>"; };
 		52C6A40E1E5816A40084E512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C6A4181E5818E60084E512 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		52C6A4191E5818E60084E512 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		52C6A3F11E5816A40084E512 /* HorcRc */ = {
 			isa = PBXGroup;
 			children = (
+				52C6A4171E5818D20084E512 /* UIViewEx */,
 				52C6A3F51E5816A40084E512 /* AppDelegate.h */,
 				52C6A3F61E5816A40084E512 /* AppDelegate.m */,
 				52C6A3F81E5816A40084E512 /* ViewController.h */,
@@ -109,6 +113,15 @@
 				52C6A40E1E5816A40084E512 /* Info.plist */,
 			);
 			path = HorcRcUITests;
+			sourceTree = "<group>";
+		};
+		52C6A4171E5818D20084E512 /* UIViewEx */ = {
+			isa = PBXGroup;
+			children = (
+				52C6A4181E5818E60084E512 /* UIView+Ext.h */,
+				52C6A4191E5818E60084E512 /* UIView+Ext.m */,
+			);
+			path = UIViewEx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C6A41A1E5818E60084E512 /* UIView+Ext.m in Sources */,
 				52C6A3FA1E5816A40084E512 /* ViewController.m in Sources */,
 				52C6A3F71E5816A40084E512 /* AppDelegate.m in Sources */,
 				52C6A3F41E5816A40084E512 /* main.m in Sources */,
